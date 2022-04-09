@@ -1,6 +1,6 @@
 import streamlit as st
 y = 50
-st.header("Mark Checking Demo")
+st.header("Exam Passing Rate Calculator")
 
 
 readme = st.checkbox("readme")
@@ -8,7 +8,7 @@ readme = st.checkbox("readme")
 if readme:
 
     st.write("""
-        This is a mark checking demo. You may get the codes via [github](https://github.com/Shriraam04/passingmark)
+        This is a Exam Passing Rate Calculator. You may get the codes via [github](https://github.com/Shriraam04/passingmark)
         """)
 
     st.write ("For more info, please contact:")
@@ -16,8 +16,8 @@ if readme:
     st.write("[Shriraam Asokumar](https://www.linkedin.com/in/shriraamasokumar/)")
     
          
-mark = st.text_input('Enter the mark here', '50')
-         
+mark = st.text_input('Enter your mark here', '50')
+        
          
 try:
     val = float(mark)
@@ -29,7 +29,7 @@ try:
         st.write("\nYou passed your exam. Keep it up!\n")
        
     else:
-        st.write("\nUnfortunately, you did not pass your exam. Work harder. You can make it.\n")
+        st.write("\nYou failed this time. Keep your head up, failure is the key to success. Each mistake teaches us something!\n")
 
             
 except ValueError:
