@@ -8,7 +8,7 @@ readme = st.checkbox("Readme")
 if readme:
 
     st.write("""
-        This is a Exam Passing Rate Calculator. If interested, do get the codes from github (https://github.com/Shriraam04/passingrate)
+        This is a Exam Passing Rate Calculator. Link to the code from github (https://github.com/Shriraam04/passingrate)
         """)
 
     st.write ("For more info, please contact:")
