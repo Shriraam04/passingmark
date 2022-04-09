@@ -3,7 +3,7 @@ y = 50
 st.header("Exam Passing Rate Calculator")
 
 
-readme = st.checkbox("readme")
+readme = st.checkbox("Readme")
 
 if readme:
 
